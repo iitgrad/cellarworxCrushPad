@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AA3FD3141AA55200BD421B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AA3FD2141AA55200BD421B /* UIKit.framework */; };
+		19AA3FD5141AA55200BD421B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AA3FD4141AA55200BD421B /* Foundation.framework */; };
+		19AA3FD7141AA55200BD421B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AA3FD6141AA55200BD421B /* CoreGraphics.framework */; };
+		19AA3FD9141AA55200BD421B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AA3FD8141AA55200BD421B /* CoreData.framework */; };
+		19AA3FDF141AA55300BD421B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19AA3FDD141AA55300BD421B /* InfoPlist.strings */; };
+		19AA3FE1141AA55300BD421B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AA3FE0141AA55300BD421B /* main.m */; };
+		19AA3FE5141AA55300BD421B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AA3FE4141AA55300BD421B /* AppDelegate.m */; };
+		19AA3FE8141AA55300BD421B /* cellarworxCrushPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19AA3FE6141AA55300BD421B /* cellarworxCrushPad.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19AA3FCE141AA55200BD421B /* cellarworxCrushPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cellarworxCrushPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AA3FD2141AA55200BD421B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19AA3FD4141AA55200BD421B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19AA3FD6141AA55200BD421B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19AA3FD8141AA55200BD421B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		19AA3FDC141AA55300BD421B /* cellarworxCrushPad-Info.plist */ = {isa = PBXFileReference; path = "cellarworxCrushPad-Info.plist"; sourceTree = "<group>"; };
+		19AA3FDE141AA55300BD421B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19AA3FE0141AA55300BD421B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19AA3FE2141AA55300BD421B /* cellarworxCrushPad-Prefix.pch */ = {isa = PBXFileReference; path = "cellarworxCrushPad-Prefix.pch"; sourceTree = "<group>"; };
+		19AA3FE3141AA55300BD421B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		19AA3FE4141AA55300BD421B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19AA3FE7141AA55300BD421B /* cellarworxCrushPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cellarworxCrushPad.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19AA3FCB141AA55200BD421B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AA3FD3141AA55200BD421B /* UIKit.framework in Frameworks */,
+				19AA3FD5141AA55200BD421B /* Foundation.framework in Frameworks */,
+				19AA3FD7141AA55200BD421B /* CoreGraphics.framework in Frameworks */,
+				19AA3FD9141AA55200BD421B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AA3FC3141AA55000BD421B = {
+			isa = PBXGroup;
+			children = (
+				19AA3FDA141AA55200BD421B /* cellarworxCrushPad */,
+				19AA3FD1141AA55200BD421B /* Frameworks */,
+				19AA3FCF141AA55200BD421B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19AA3FCF141AA55200BD421B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19AA3FCE141AA55200BD421B /* cellarworxCrushPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AA3FD1141AA55200BD421B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19AA3FD2141AA55200BD421B /* UIKit.framework */,
+				19AA3FD4141AA55200BD421B /* Foundation.framework */,
+				19AA3FD6141AA55200BD421B /* CoreGraphics.framework */,
+				19AA3FD8141AA55200BD421B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19AA3FDA141AA55200BD421B /* cellarworxCrushPad */ = {
+			isa = PBXGroup;
+			children = (
+				19AA3FE3141AA55300BD421B /* AppDelegate.h */,
+				19AA3FE4141AA55300BD421B /* AppDelegate.m */,
+				19AA3FE6141AA55300BD421B /* cellarworxCrushPad.xcdatamodeld */,
+				19AA3FDB141AA55300BD421B /* Supporting Files */,
+			);
+			path = cellarworxCrushPad;
+			sourceTree = "<group>";
+		};
+		19AA3FDB141AA55300BD421B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19AA3FDC141AA55300BD421B /* cellarworxCrushPad-Info.plist */,
+				19AA3FDD141AA55300BD421B /* InfoPlist.strings */,
+				19AA3FE0141AA55300BD421B /* main.m */,
+				19AA3FE2141AA55300BD421B /* cellarworxCrushPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19AA3FCD141AA55200BD421B /* cellarworxCrushPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AA3FEB141AA55300BD421B /* Build configuration list for PBXNativeTarget "cellarworxCrushPad" */;
+			buildPhases = (
+				19AA3FCA141AA55200BD421B /* Sources */,
+				19AA3FCB141AA55200BD421B /* Frameworks */,
+				19AA3FCC141AA55200BD421B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cellarworxCrushPad;
+			productName = cellarworxCrushPad;
+			productReference = 19AA3FCE141AA55200BD421B /* cellarworxCrushPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19AA3FC5141AA55000BD421B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "deck5 Software, Inc.";
+			};
+			buildConfigurationList = 19AA3FC8141AA55000BD421B /* Build configuration list for PBXProject "cellarworxCrushPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19AA3FC3141AA55000BD421B;
+			productRefGroup = 19AA3FCF141AA55200BD421B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AA3FCD141AA55200BD421B /* cellarworxCrushPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AA3FCC141AA55200BD421B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AA3FDF141AA55300BD421B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AA3FCA141AA55200BD421B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AA3FE1141AA55300BD421B /* main.m in Sources */,
+				19AA3FE5141AA55300BD421B /* AppDelegate.m in Sources */,
+				19AA3FE8141AA55300BD421B /* cellarworxCrushPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19AA3FDD141AA55300BD421B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AA3FDE141AA55300BD421B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19AA3FE9141AA55300BD421B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		19AA3FEA141AA55300BD421B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19AA3FEC141AA55300BD421B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cellarworxCrushPad/cellarworxCrushPad-Prefix.pch";
+				INFOPLIST_FILE = "cellarworxCrushPad/cellarworxCrushPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19AA3FED141AA55300BD421B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cellarworxCrushPad/cellarworxCrushPad-Prefix.pch";
+				INFOPLIST_FILE = "cellarworxCrushPad/cellarworxCrushPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19AA3FC8141AA55000BD421B /* Build configuration list for PBXProject "cellarworxCrushPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AA3FE9141AA55300BD421B /* Debug */,
+				19AA3FEA141AA55300BD421B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AA3FEB141AA55300BD421B /* Build configuration list for PBXNativeTarget "cellarworxCrushPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AA3FEC141AA55300BD421B /* Debug */,
+				19AA3FED141AA55300BD421B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19AA3FE6141AA55300BD421B /* cellarworxCrushPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19AA3FE7141AA55300BD421B /* cellarworxCrushPad.xcdatamodel */,
+			);
+			currentVersion = 19AA3FE7141AA55300BD421B /* cellarworxCrushPad.xcdatamodel */;
+			path = cellarworxCrushPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19AA3FC5141AA55000BD421B /* Project object */;
+}
